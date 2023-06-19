@@ -35,7 +35,7 @@ const CreateNFT = () => {
 		try{
 			const addedFile = await ipfsClient.add(file);
 			//console.log(addedFile.path)
-			const ipfsURL ='https://anas.infura-ipfs.io/${addedFile.path}';
+			const ipfsURL ='https://********.infura-ipfs.io/${addedFile.path}';
 			//console.log(ipfsURL)
 			setUrlHash(ipfsURL)
 			//console.log(ipfsURL)
