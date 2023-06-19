@@ -5,8 +5,8 @@ import Web3 from 'web3'
 //import "../contracts/NFTMarketPlace.sol"
 
 //const ipfsClient = require("ipfs-http-client");
-const projectId = "2RN2clEtTkj0CKVkdrLFeVVPCIM";
-const projectSecretKey = "ace790353b1b7ddde9e97e21338ed58d";
+const projectId = "************************";
+const projectSecretKey = "*******************************";
 const auth =
     "Basic " + Buffer.from(projectId + ":" + projectSecretKey).toString("base64");
 
